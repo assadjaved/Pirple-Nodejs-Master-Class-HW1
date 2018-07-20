@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "c0bf06d1-62e4-44c0-b5f4-5ee9a37ec957",
+		"name": "Pirple Nodejs Master Class HW1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "sayHello",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\": \"hello\",\n\t\"message\": \"message\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/hello",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"hello"
+					]
+				},
+				"description": "Pirple Node.js Master Class Assignment 1\n\n/hello"
+			},
+			"response": []
+		}
+	]
+}
